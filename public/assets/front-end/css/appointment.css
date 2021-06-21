@@ -1,0 +1,90 @@
+.dr-info {
+    display: block;
+}
+
+.dr-info.dr-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.slot-header .day {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.slot-header .date {
+    display: block;
+    font-weight: bold;
+}
+
+.slot-wrapper .slot-time {
+    display: block;
+    background: #ddd;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.slot-wrapper .slot-time.selected {
+    background: #87c7de;
+    color: #FFF;
+}
+
+.slick-prev, .slick-next {
+    top: 25px !important;
+}
+
+.slick-prev {
+    left: 0 !important;
+    z-index: 9;
+}
+
+.slick-next {
+    right: 0 !important;
+    z-index: 9;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #87c7de !important;
+}
+
+.doctor-photo {
+    /*width: 100px;*/
+}
+
+.slideitem.slick-slide {
+    height: unset;
+}
+
+.radio-parent {
+    display: inline;
+}
+
+.border-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.top-title {
+    font-weight: bold;
+}
+
+.proceed-to-pay-btn {
+    font-size: 17px;
+}
+
+.required-star {
+    color: red;
+    font-weight: bold;
+}
+
+.slot-wrapper .slot-time.booked {
+    background: #ff0000;
+    color: #fff;
+    pointer-events: none;
+}
